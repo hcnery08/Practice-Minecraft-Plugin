@@ -1,0 +1,39 @@
+games:
+  test_solo:
+    arenas: "all available arenas"
+    kit: "test"
+    teamAmount: 2
+    maxPlayersPerTeam: 1
+    minPlayersPerTeam: 1
+    settings:
+      build: false
+      damage: false
+      knockback: true
+      lives: 1
+      winAfterHits: 100
+
+arenas:
+  test:
+    locations:
+      ==: org.bukkit.Location
+      world: world
+      x: 0
+      y: 65.0
+      z: 0
+      pitch: 0.0
+      yaw: 0.0
+    buildRegion: "worldgaurd region"
+
+kits:
+  test:
+    settings:
+      canDrop: true
+      remove: "list of items"
+    potions: "list of potions"
+    default:
+      main: "example"
+      armor: "example"
+    playerCustom:
+      c0198e5d-d2d5-487f-9c1b-d04cbd8831ab:
+        main: "example"
+        armor: "example"

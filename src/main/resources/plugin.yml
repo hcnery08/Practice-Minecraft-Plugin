@@ -1,0 +1,10 @@
+name: Practice
+version: '${project.version}'
+main: au.chival.practice.Main
+prefix: 'Practice ${project.version}'
+authors: [ N8RY, HCNery08 ]
+commands:
+  test:
+  arena:
+  kit:
+  game:
